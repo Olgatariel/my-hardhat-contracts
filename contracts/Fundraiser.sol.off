@@ -106,7 +106,7 @@ contract Fundraiser is Ownable, ReentrancyGuard, Pausable {
     function pause() external onlyOwner {
         _pause();
     }
-    function unpause() external onltOwner [
+    function unpause() external onlyOwner {
         _unpause();
-    ]
+    };
 }
